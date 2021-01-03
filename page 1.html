@@ -1,0 +1,190 @@
+<head>
+<title>MY RESUME</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+	
+	h1 {
+		color:black;
+		font-family:century gothic;
+		text-align:center;
+		font-size:200%;
+		border:6px dashed black;
+		padding:30px;
+
+		}
+		table,th,td {
+			border: 1px solid blue;
+			border-collapse: collapse;
+			padding: 15px;
+		}
+		td{
+			font-family:century gothic;
+		}
+		table#t01{
+			width: 100%;
+			background-color: powderblue;
+		}
+	body {
+		background-image: url("background.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100%, 100%; 
+	}
+	*{
+		box-sizing:border-box;
+	}
+	body {
+		font-family:Arial, Helvetica, san-serif;
+	}
+	/*style the header*/
+	header {
+		background-color:none;
+		padding:none;
+		text align:left;
+		color:black;
+	}
+	/*Container for flexboxes*/
+	section {
+		display:-webkit-flex;
+		display:flex;
+	}
+	/*style the navigation menu*/
+	nav {
+		-webkit-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		background-color:#2471A3;
+		padding:none;
+	}
+	/*style the list inside the menu*/
+	nav ul{
+		list-style-type:none;
+		padding:0;
+	}
+	article {
+		-webkit-flex: 3;
+		-ms-fles: 3;
+		flex: 3;
+		background-color:#D1F2EB;
+		padding:none;
+	}
+	/*clear float property after the column*/
+	section:after {
+		content:"";
+		display:table;
+		clear:both;
+	}
+	/*style the footer*/
+	footer{
+		background-color:#2471A3;
+		padding:none;
+		text-align:center;
+		color:white;
+	}
+	/*Responsive layout - makes the two column/boxes stack on top ofeach other instead of next to each
+other, on small screen*/
+	@media(max-width:600px){
+		nav, article {
+				width:100%;
+				height:auto;
+		}
+	}
+</style>
+</head>
+<body>
+<header>
+<center>
+	<h2><img src="Header Image.png" alt="Header Image"
+	width="1300" height="300"></h2>
+</header>
+</center>
+<header>
+<center>
+	<nav>
+		<ul>
+	<li><a href="index.html">About Me</a></li>
+	<li><a href="page 1.html">Personal Detail</a></li>
+	<li><a href="page 2.html">Qualification(Education)</a></li>
+	<li><a href="page 3.html">Achievements</a></li>
+	<li><a href="page 4.html">Objectives</a></li>
+	<li><a href="page 5.html">Contact Me</a></li>
+		</ul>
+</center>
+	</nav>
+	<article>
+
+<center>
+<h1>PERSONAL DETAILS</h1>
+</center>
+<br><br>
+<table style = "width:100%">
+	<tr>
+		<th>Name:</th>
+		<td>Roslind Cannie Anak Awang</td>
+	</tr>
+	<tr>
+		<th rowspan="2">Phone Number:</th>
+		<td>010-9746391</th>
+	</tr>
+	<tr>
+		<td>012-3456789</td>
+	</tr>
+	<tr>
+		<th>Age:</th>
+		<td>21</td>
+	</tr>
+	<tr>
+		<th>Date of Birth:</th>
+		<td>21 May 1999</td>
+	</tr>
+	<tr>
+		<th>Place of Birth:</th>
+		<td>Hospital Besar Sibu Sarawak</td>
+	</tr>
+	<tr>
+		<th>Gender:</th>
+		<td>Female</td>
+	</tr>
+	<tr>
+		<th>Religion:</th>
+		<td>Kristian</td>
+	</tr>
+	<tr>
+		<th>Race:</th>
+		<td>Iban</td>
+	</tr>
+	<tr>
+		<th>Status:</th>
+		<td>Single</td>
+	</tr>
+	<tr>
+		<th>Address:</th>
+		<td>Tr Juan Sg Rassau Btg Igan Sibu 96000 Sarawak</td>
+	</tr>
+	<tr>
+		<th rowspan="4">Education Background:</th>
+		<td>UiTM Kampus Samarahan Sarawak(Degree Ongoing)</th>
+	</tr>
+	<tr>	
+		<td>UiTM Kampus Samarahan Sarawak(Diploma 2018 - 2020)</td>
+
+	</tr>
+	<tr>
+		<td>SMK Jalan Oya, Sibu Sarawak(2012 - 2016)</td>
+	</tr>
+	<tr>
+		<td>SK Tanjung Penasu Btg Igan Sibu Sarawak(2006 - 2011)</td>
+	</tr>
+
+	</article>
+</table>
+</section>
+<footer>
+	<p>Copyright@2020 Roslind Cannie</p>
+	<p>Recommended Browser Google Chrome Resolution 1366x768.</p>
+	<p>Last Updated 31 December 2020.</p>
+	<p>All Right Reserved</p>
+</footer>
+</body>
+</html>

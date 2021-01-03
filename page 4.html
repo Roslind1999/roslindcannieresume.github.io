@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>MY RESUME</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+	body {
+		background-image: url("background.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100%, 100%; 
+	}
+		h1{
+		color:black;
+		font-family:century gothic;
+		text-align:center;
+		font-size:200%;
+		border:6px dashed black;
+		padding:30px;
+	}
+	*{
+		box-sizing:border-box;
+	}
+	body {
+		font-family:Arial, Helvetica, san-serif;
+	}
+	/*style the header*/
+	header {
+		background-color:none;
+		padding:none;
+		text align:center;
+		color:black;
+	}
+	/*Container for flexboxes*/
+	section {
+		display:-webkit-flex;
+		display:flex;
+	}
+	/*style the navigation menu*/
+	nav {
+		-webkit-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		background-color:#2471A3;
+		padding:none;
+		color:white;
+	}
+	/*style the list inside the menu*/
+	nav ul{
+		list-style-type:none;
+		padding:0;
+	}
+	article {
+		-webkit-flex: 3;
+		-ms-fles: 3;
+		flex: 3;
+		background-color:#D1F2EB;
+		padding:none;
+	}
+	/*clear float property after the column*/
+	section:after {
+		content:"";
+		display:table;
+		clear:both;
+	}
+	/*style the footer*/
+	footer{
+		background-color:#2471A3;
+		padding:none;
+		text-align:center;
+		color:white;
+	}
+	/*Responsive layout - makes the two column/boxes stack on top ofeach other instead of next to each
+other, on small screen*/
+	@media(max-width:600px){
+		nav, article {
+				width:100%;
+				height:auto;
+		}
+	}
+</style>
+</head>
+<body>
+<header>
+<center>
+	<h2><img src="Header Image.png" alt="Header Image"
+	width="1300" height="300"></h2>
+</header>
+</center>
+<header>
+<center>
+	<nav>
+	<ul>
+	<li><a href="index.html">About Me</a></li>
+	<li><a href="page 1.html">Personal Detail</a></li>
+	<li><a href="page 2.html">Qualification(Education)</a></li>
+	<li><a href="page 3.html">Achievements</a></li>
+	<li><a href="page 4.html">Objectives</a></li>
+	<li><a href="page 5.html">Contact Me</a></li>
+	</ul>
+	
+</center>
+	</nav>
+	<article>
+		<ul style = "list-style-type:square">
+<center>
+<h1>OBJECTIVES</h1>
+</center>
+<center>
+	<p>Objectives to hire me?</p>
+	<p>Here are several reasons why you should hire me as your employee:</p>
+	<p>Commitment & Hardworking</p>
+	<p>I am a ex-committee member in a society, OMSAR (Office Management Sarawak).
+	 Every programmes that they held, I always join and support our society and always struggle with every program they held.</p>
+<br>
+</center>
+	</article>
+</section>
+<footer>
+	<p>Copyright@2020 Roslind Cannie</p>
+	<p>Recommended Browser Google Chrome Resolution 1366x768.</p>
+	<p>Last Updated 31 December 2020.</p>
+	<p>All Rights Reserved</p>
+</footer>
+</body>
+</html>

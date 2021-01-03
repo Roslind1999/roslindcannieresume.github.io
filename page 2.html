@@ -1,0 +1,155 @@
+<head>
+<title>MY RESUME</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+	
+	h1 {
+		color:black;
+		font-family:century gothic;
+		text-align:center;
+		font-size:200%;
+		border:5px dashed black;
+		padding:30px;
+
+		}
+		table,th,td {
+			border: 1px solid blue;
+			border-collapse: collapse;
+			padding: 15px;
+		}
+		td{
+			font-family:century gothic;
+		}
+		table#t01{
+			width: 100%;
+			background-color: powderblue;
+		}
+	body {
+		background-image: url("background.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100%, 100%; 
+	}
+	*{
+		box-sizing:border-box;
+	}
+	body {
+		font-family:Arial, Helvetica, san-serif;
+	}
+	/*style the header*/
+	header {
+		background-color:none;
+		padding:none;
+		text align:left;
+		color:black;
+	}
+	/*Container for flexboxes*/
+	section {
+		display:-webkit-flex;
+		display:flex;
+	}
+	/*style the navigation menu*/
+	nav {
+		-webkit-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		background-color:#2471A3;
+		padding:none;
+	}
+	/*style the list inside the menu*/
+	nav ul{
+		list-style-type:none;
+		padding:0;
+	}
+	article {
+		-webkit-flex: 3;
+		-ms-fles: 3;
+		flex: 3;
+		background-color:#D1F2EB;
+		padding:none;
+	}
+	/*clear float property after the column*/
+	section:after {
+		content:"";
+		display:table;
+		clear:both;
+	}
+	/*style the footer*/
+	footer{
+		background-color:#2471A3;
+		padding:none;
+		text-align:center;
+		color:white;
+	}
+	/*Responsive layout - makes the two column/boxes stack on top ofeach other instead of next to each
+other, on small screen*/
+	@media(max-width:600px){
+		nav, article {
+				width:100%;
+				height:auto;
+		}
+	}
+</style>
+</head>
+<body>
+<header>
+<center>
+	<h2><img src="Header Image.png" alt="Header Image"
+	width="1300" height="300"></h2>
+</header>
+</center>
+<header>
+<center>
+	<nav>
+		<ul>
+	<li><a href="index.html">About Me</a></li>
+	<li><a href="page 1.html">Personal Detail</a></li>
+	<li><a href="page 2.html">Qualification(Education)</a></li>
+	<li><a href="page 3.html">Achievements</a></li>
+	<li><a href="page 4.html">Objectives</a></li>
+	<li><a href="page 5.html">Contact Me</a></li>
+
+		</ul>
+</center>
+	</nav>
+	<article>
+
+<center>
+<h1>QUALIFICATIONS(EDUCATION)</h1>
+</center>
+<br>
+<center>
+<p>UNIVERSITI TEKNOLOGI MARA KAMPUS SAMARAHAN SARAWAK</p>
+<p>Bachelor in Office Systems Management (Hons)</p>
+<p>Finished : Ongoing</p>
+<br>
+<p>UNIVERSITI TEKNOLOGI KAMPUS SAMARAHAN SARAWAK</p>
+<p>Diploma in Office and Business Systems</p>
+<p>Finished</p>
+<p>CGPA</p>
+<p>SEM 1: 2.54, SEM 2: 2.85, SEM 3: 2.86, SEM 4: 2.89, SEM 5:2.92</p>
+<br>
+<img src="image6.jpg" alt= "CGPA"
+style="width:128px; height:128px;">
+<img src="image7.jpg"
+alt="CGPA"
+style="width:128px; height:128px;">
+<br>
+<p>SMK Jalan Oya Sibu Sarawak</p>
+<p> SPM </p>
+<p>1A,3A-,1B+,1C,1D,1E</p>
+<img src="image3.jpg" alt= "SPM"
+style="width:128px; height:128px;">
+
+	</article>
+
+</section>
+<footer>
+	<p>Copyright 2020 Roslind Cannie</p>
+	<p>Recommended Browser Google Chrome Resolution 1366x768.</p>
+	<p>Last Updated 31 December 2020.</p>
+	<p>All Right Reserved</p>
+</footer>
+</body>
+</html>
